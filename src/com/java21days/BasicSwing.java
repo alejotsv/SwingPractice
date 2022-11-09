@@ -1,4 +1,11 @@
 package com.java21days;
 
-public class BasicSwing {
+import javax.swing.*;
+
+public class BasicSwing extends JFrame{
+
+    BasicSwing(String title){
+        super(title);
+    }
+
 }
