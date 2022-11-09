@@ -8,6 +8,7 @@ public class BasicSwing extends JFrame{
     BasicSwing(String title, Dimension d){
         super(title);
         setSize(d);
+        setLocationRelativeTo(null);
         setVisible(true);
     }
 
